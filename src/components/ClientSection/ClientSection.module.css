@@ -1,0 +1,40 @@
+.clients {
+  margin-top: 64px;
+  width: fit-content;
+  margin: auto;
+  max-width: 100%;
+  padding: 16px 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clients > div {
+  background-color: rgb(250, 250, 250);
+}
+
+.horizontalScroll {
+  width: min-content;
+  max-width: 100%;
+  margin: 32px auto;
+  display: flex;
+  gap: 32px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.profilePic {
+  border-radius: 16px;
+}
+
+.horizontalScroll > figure {
+  margin: 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  overflow: auto;
+}

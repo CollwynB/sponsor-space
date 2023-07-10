@@ -1,0 +1,55 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    animation: fade-in .5s;
+    overflow: hidden;
+    max-height: 100vh;
+    height: 100vh;
+    transition: .2s;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.closed {
+    max-height: 0px;
+    padding: 0;
+    z-index: -1;
+}
+
+.buttonOpen {
+    background-color: transparent;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonClose {
+    background-color: transparent;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: fit-content;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

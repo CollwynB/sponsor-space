@@ -1,0 +1,38 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+  margin: 0;
+  scroll-margin-top: 96px;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+
+section {
+  margin-top: 64px;
+}
+
+.portraitVideo {
+  height: 50vw;
+  max-height: 75vh;
+  margin-top: 32px;
+  aspect-ratio: 9/19.5;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: xx-large;
+  }
+}
