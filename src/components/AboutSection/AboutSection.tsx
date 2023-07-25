@@ -11,6 +11,7 @@ export default function AboutSection() {
           influencers, creating authentic connections that drive engagement,
           growth, and success.
         </p>
+        <br />
         <p>
           With a passion for creativity and a data-driven approach, we curate
           seamless partnerships that resonate with your target audience. Whether
@@ -18,6 +19,7 @@ export default function AboutSection() {
           meaningful collaborations, our experienced team is here to guide you
           every step of the way.
         </p>
+        <br />
         <p>
           We take pride in our extensive network of influencers representing
           various industries and niches. By harnessing the potential of these
