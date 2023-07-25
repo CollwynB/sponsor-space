@@ -181,6 +181,18 @@ export default function ContactSection() {
             <button className={styles.button} onClick={submitContactDetails}>
               Register
             </button>
+            {/* TODO: MAKE THIS PROPER, IS THIS ENOUGH? */}
+            <p className={styles.disclaimer}>
+              By registering you agree to be contacted by Sponsor Space through
+              the provided email.
+              <br />
+              If you are a creator, your data may be shared with businesses that
+              have also signed up with us for the express purpose of finding you
+              sponsorship deals.
+              <br />
+              You can unsubscribe from Sponsor Space's service at any time.
+              Please contact us at info@sponsor-space.com to do so.
+            </p>
           </form>
         ) : (
           <>

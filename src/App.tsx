@@ -1,10 +1,10 @@
 import styles from "./App.module.css";
 import useWindowSize from "./hooks/useWindowSize";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import BurgerNav from "./components/BurgerNav/BurgerNav";
 import NavLinks from "./components/NavLinks/NavLinks";
 import AboutSection from "./components/AboutSection/AboutSection";
-import ClientSection from "./components/ClientSection/ClientSection";
+// import ClientSection from "./components/ClientSection/ClientSection";
 import ContactSection from "./components/ContactSection/ContactSection";
 
 export default function App() {
