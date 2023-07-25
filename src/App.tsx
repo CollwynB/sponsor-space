@@ -47,9 +47,9 @@ export default function App() {
         <section id="about" className={styles.about}>
           <AboutSection />
         </section>
-        <section id="clients" className={styles.clients}>
+        {/* <section id="clients" className={styles.clients}>
           <ClientSection />
-        </section>
+        </section> */}
         <section id="contact" className={styles.contact}>
           <ContactSection />
         </section>
