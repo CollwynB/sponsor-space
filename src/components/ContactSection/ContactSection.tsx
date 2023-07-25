@@ -39,6 +39,9 @@ export default function ContactSection() {
   }, [socials]);
 
   const submitContactDetails = async () => {
+    return alert(
+      "Woops! We are not ready to welcome you yet, pelase come back later and try again :)"
+    );
     const docRef = await addDoc(collection(db, "contacts"), contactInfo);
     setSubmittedInfo(true);
     console.log("Document written with ID: ", docRef.id);
