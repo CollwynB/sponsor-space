@@ -29,7 +29,7 @@ export default function App() {
   return (
     <>
       <header className={styles.header}>
-        <h3>company name</h3>
+        <h3>sponsor_space</h3>
         <nav>{windowSize.w > 480 ? <NavLinks /> : <BurgerNav />}</nav>
       </header>
       <main className={styles.main}>

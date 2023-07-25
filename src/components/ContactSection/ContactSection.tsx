@@ -184,8 +184,8 @@ export default function ContactSection() {
           </form>
         ) : (
           <>
-            <p>Thank you for registering, we will be in touch soon</p>
-            <p>You should receive an email confirming your registration soon</p>
+            <p className={styles.thankYou}>Thank you for registering!</p>
+            <p>We will review your details and be in touch soon.</p>
           </>
         )}
       </div>

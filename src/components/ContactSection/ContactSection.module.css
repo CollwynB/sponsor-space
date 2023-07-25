@@ -55,6 +55,11 @@
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.thankYou {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
 button.button:hover {
   background-color: white;
   color: black;
