@@ -1,4 +1,4 @@
-!!! WORK IN PROGRESS
+> :warning: WORK IN PROGRESS
 
 # Getting Started with Create React App
 
